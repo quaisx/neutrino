@@ -1,5 +1,6 @@
-#NEUTRINO
-##Introduction
+# NEUTRINO
+
+## Introduction
 Being forced to work to other people is probably the most challanging part of live. I do not want to count those sociopaths who strive in the society by manipulation and desceit. And, there are other types of 'know-it-all' lads who think that their opinion is the only opinion that matters. Brief episodes of employment and numerous fruitless job interviews have led me to realize that I do not need any of them to prove to myself that I am a decent programmer. I have decided to take on a play project - Neutrino: de-centralized smart contract crypto promissory note. I want you to dwell on the idea for a bit and how practical it can be to de-couple ourselves from banks and the system in general. The truth is - they need us to exist, we, on the other hand, do not need them to live and thrive.
 
 I am still thinking about all possible use cases, but the general idea is soverign asset/debt ratios expressed as smart contracts with the ability to buy, sell, trade assets/debts using de-cetralized smart contract crypto promissory notes.
