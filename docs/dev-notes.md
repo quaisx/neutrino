@@ -47,3 +47,8 @@ _This file is in the TOML (Tom’s Obvious, Minimal Language) format, which is C
 - cargo run - run a project
 
 
+## Dependencies
+
+[dependencies]
+rand = "0.8.5" 
+rand = "^0.8.5" - any version up from 0.8.5 but below 0.9.0
