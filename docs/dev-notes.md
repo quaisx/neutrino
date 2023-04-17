@@ -41,4 +41,9 @@ _This file is in the TOML (Tom’s Obvious, Minimal Language) format, which is C
 
 [TOML](https://toml.io/en/)
 
+- cargo new - create a new project
+- cargo build - build a project
+- cargo build --release -compile with optimizations
+- cargo run - run a project
+
 
