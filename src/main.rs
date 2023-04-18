@@ -38,6 +38,10 @@ use std::{error::Error};
 
 use futures::prelude::*;
 
+pub mod wallet;
+pub mod utils;
+
+
 #[derive(NetworkBehaviour, Default)]
 struct Behaviour {
     keep_alive: keep_alive::Behaviour,
@@ -52,10 +56,14 @@ fn load_keypair() -> Keypair {
     identity::Keypair::generate_ed25519()
 }
 
+/*
+    We are starting off with a simple ping exchange 
+ */
 #[async_std::main]
 async fn main() -> Result<(), Box<dyn Error>> {
 
     println!("NEUTRINO PING -> First step in building the app's p2p skeleton");
+
     // load this host's key pair
     let key_pair: Keypair = load_keypair();
     // host id is generated from the public key - pass the public key to generate host id
